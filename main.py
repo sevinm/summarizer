@@ -1,4 +1,7 @@
 # importing libraries
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize, sent_tokenize
